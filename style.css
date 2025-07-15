@@ -84,6 +84,54 @@ form button {
 }
 
 footer {
+  body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fefefe;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+header.hero {
+  background: #007acc;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.btn {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#text-container {
+  position: relative;
+  height: 80vh;
+  border: 1px dashed #ccc;
+  margin: 2rem;
+}
+
+.text-block {
+  position: absolute;
+  background: #f4f4f4;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: move;
+  user-select: none;
+}
+
+.draggable {
+  cursor: move;
+  display: inline-block;
+}
+
   background: #222;
   color: #eee;
   text-align: center;
